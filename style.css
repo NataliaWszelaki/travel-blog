@@ -224,6 +224,10 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+    }
+
     .contact-container {
         flex-direction: column;
         gap: 20px;
