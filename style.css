@@ -104,7 +104,6 @@ section a {
 }
 
 .card {
-    flex: 1 1 250px;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -221,6 +220,11 @@ footer a:hover {
     .contact-container {
         flex-direction: column;
         gap: 20px;
+    }
+
+    .card img,
+    .card video {
+        height: auto;
     }
 
     .cards {
