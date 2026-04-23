@@ -104,7 +104,7 @@ section a {
 }
 
 .card {
-    flex: 1;
+    flex: 1 1 250px;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
