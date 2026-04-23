@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Small Trips, Big Adventures</title>
+
+    <meta name="description" content="travel blog">
+    <meta name="keywords" content="trip, travel, adventure">
+    <meta name="author" content="NW">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header>
+    <div class="navbar">
+        <div class="logo">
+            🧭
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="lasttrip.html">Last trip</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2>Contact me</h2>
+                <p>Need more information? Get in touch with me:</p>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" size="50" required>
+                    <label for="email">Email address:</label>
+                    <input type="text" id="email" name="email" placeholder="example@example.com" size="50"
+                           pattern=".+@.+" required>
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject" required>
+                        <option value="Travel">Travel</option>
+                        <option value="Cooperation">Cooperation</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Enter your message" rows="6" cols="100" required>
+                    </textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <img src="images/img12.jpg" alt="Contact">
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Author: Natalia Wszelaki</p>
+    <a href="mailto:nm.wszelaki@gmail.com">e-mail: nm.wszelaki@gmail.com</a>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
