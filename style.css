@@ -98,9 +98,9 @@ section a {
 }
 
 .cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-    flex-wrap: wrap;
 }
 
 .card {
@@ -123,12 +123,6 @@ section a {
     height: 180px;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
-}
-
-.gallery-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
 }
 
 #lightbox {
@@ -224,16 +218,12 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-    .cards {
-        flex-direction: column;
-    }
-
     .contact-container {
         flex-direction: column;
         gap: 20px;
     }
 
-    .gallery-cards {
+    .cards {
         grid-template-columns: 1fr;
     }
 
